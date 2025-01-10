@@ -1,0 +1,2174 @@
+{
+  "sub": {
+    "LongName": "Subject ID",
+    "Description": "Subject identifier"
+  },
+  "ses": {
+    "LongName": "Session ID",
+    "Description": "Session identifier"
+  },
+  "active_drug": {
+    "LongName": "Scan Type",
+    "Description": "Session identifier, True means active drug, False means placebo"
+  },
+  "fd_mean": {
+    "LongName": "Mean framewise displacement",
+    "Description": "Estimate of motion during scan session"
+  },
+  "dvars": {
+    "LongName": "Derivative signal variance",
+    "Description": "Root mean square error of temporal change of voxelwise fMRI signal"
+  },
+  "cens_vol": {
+    "LongName": "Censored volumes",
+    "Description": "Number of volumes censored by artefact detection toolbox procedure (3, 0.5)"
+  },
+  "art_motion": {
+    "LongName": "ART-estimate composite motion",
+    "Description": "Composite motion parameter estimated by artefact detection toolbox"
+  },
+  "NC_DefaultMode_DefaultMode": {
+    "LongName": "Network connectivity: DefaultMode-DefaultMode",
+    "Description": "Within-network connectivity between DefaultMode regions"
+  },
+  "NC_Frontoparietal_DefaultMode": {
+    "LongName": "Network connectivity: Frontoparietal-DefaultMode",
+    "Description": "Between-network connectivity between Frontoparietal and DefaultMode regions"
+  },
+  "NC_MedialFrontal_DefaultMode": {
+    "LongName": "Network connectivity: MedialFrontal-DefaultMode",
+    "Description": "Between-network connectivity between MedialFrontal and DefaultMode regions"
+  },
+  "NC_Motor_DefaultMode": {
+    "LongName": "Network connectivity: Motor-DefaultMode",
+    "Description": "Between-network connectivity between Motor and DefaultMode regions"
+  },
+  "NC_SubcorticalCerebellum_DefaultMode": {
+    "LongName": "Network connectivity: SubcorticalCerebellum-DefaultMode",
+    "Description": "Between-network connectivity between SubcorticalCerebellum and DefaultMode regions"
+  },
+  "NC_Thalamus_DefaultMode": {
+    "LongName": "Network connectivity: Thalamus-DefaultMode",
+    "Description": "Between-network connectivity between Thalamus and DefaultMode regions"
+  },
+  "NC_Visual1_DefaultMode": {
+    "LongName": "Network connectivity: Visual1-DefaultMode",
+    "Description": "Between-network connectivity between Visual1 and DefaultMode regions"
+  },
+  "NC_Visual2_DefaultMode": {
+    "LongName": "Network connectivity: Visual2-DefaultMode",
+    "Description": "Between-network connectivity between Visual2 and DefaultMode regions"
+  },
+  "NC_VisualAssociation_DefaultMode": {
+    "LongName": "Network connectivity: VisualAssociation-DefaultMode",
+    "Description": "Between-network connectivity between VisualAssociation and DefaultMode regions"
+  },
+  "NC_Frontoparietal_Frontoparietal": {
+    "LongName": "Network connectivity: Frontoparietal-Frontoparietal",
+    "Description": "Within-network connectivity between Frontoparietal regions"
+  },
+  "NC_MedialFrontal_Frontoparietal": {
+    "LongName": "Network connectivity: MedialFrontal-Frontoparietal",
+    "Description": "Between-network connectivity between MedialFrontal and Frontoparietal regions"
+  },
+  "NC_Motor_Frontoparietal": {
+    "LongName": "Network connectivity: Motor-Frontoparietal",
+    "Description": "Between-network connectivity between Motor and Frontoparietal regions"
+  },
+  "NC_SubcorticalCerebellum_Frontoparietal": {
+    "LongName": "Network connectivity: SubcorticalCerebellum-Frontoparietal",
+    "Description": "Between-network connectivity between SubcorticalCerebellum and Frontoparietal regions"
+  },
+  "NC_Thalamus_Frontoparietal": {
+    "LongName": "Network connectivity: Thalamus-Frontoparietal",
+    "Description": "Between-network connectivity between Thalamus and Frontoparietal regions"
+  },
+  "NC_Visual1_Frontoparietal": {
+    "LongName": "Network connectivity: Visual1-Frontoparietal",
+    "Description": "Between-network connectivity between Visual1 and Frontoparietal regions"
+  },
+  "NC_Visual2_Frontoparietal": {
+    "LongName": "Network connectivity: Visual2-Frontoparietal",
+    "Description": "Between-network connectivity between Visual2 and Frontoparietal regions"
+  },
+  "NC_VisualAssociation_Frontoparietal": {
+    "LongName": "Network connectivity: VisualAssociation-Frontoparietal",
+    "Description": "Between-network connectivity between VisualAssociation and Frontoparietal regions"
+  },
+  "NC_MedialFrontal_MedialFrontal": {
+    "LongName": "Network connectivity: MedialFrontal-MedialFrontal",
+    "Description": "Within-network connectivity between MedialFrontal regions"
+  },
+  "NC_Motor_MedialFrontal": {
+    "LongName": "Network connectivity: Motor-MedialFrontal",
+    "Description": "Between-network connectivity between Motor and MedialFrontal regions"
+  },
+  "NC_SubcorticalCerebellum_MedialFrontal": {
+    "LongName": "Network connectivity: SubcorticalCerebellum-MedialFrontal",
+    "Description": "Between-network connectivity between SubcorticalCerebellum and MedialFrontal regions"
+  },
+  "NC_Thalamus_MedialFrontal": {
+    "LongName": "Network connectivity: Thalamus-MedialFrontal",
+    "Description": "Between-network connectivity between Thalamus and MedialFrontal regions"
+  },
+  "NC_Visual1_MedialFrontal": {
+    "LongName": "Network connectivity: Visual1-MedialFrontal",
+    "Description": "Between-network connectivity between Visual1 and MedialFrontal regions"
+  },
+  "NC_Visual2_MedialFrontal": {
+    "LongName": "Network connectivity: Visual2-MedialFrontal",
+    "Description": "Between-network connectivity between Visual2 and MedialFrontal regions"
+  },
+  "NC_VisualAssociation_MedialFrontal": {
+    "LongName": "Network connectivity: VisualAssociation-MedialFrontal",
+    "Description": "Between-network connectivity between VisualAssociation and MedialFrontal regions"
+  },
+  "NC_Motor_Motor": {
+    "LongName": "Network connectivity: Motor-Motor",
+    "Description": "Within-network connectivity between Motor regions"
+  },
+  "NC_SubcorticalCerebellum_Motor": {
+    "LongName": "Network connectivity: SubcorticalCerebellum-Motor",
+    "Description": "Between-network connectivity between SubcorticalCerebellum and Motor regions"
+  },
+  "NC_Thalamus_Motor": {
+    "LongName": "Network connectivity: Thalamus-Motor",
+    "Description": "Between-network connectivity between Thalamus and Motor regions"
+  },
+  "NC_Visual1_Motor": {
+    "LongName": "Network connectivity: Visual1-Motor",
+    "Description": "Between-network connectivity between Visual1 and Motor regions"
+  },
+  "NC_Visual2_Motor": {
+    "LongName": "Network connectivity: Visual2-Motor",
+    "Description": "Between-network connectivity between Visual2 and Motor regions"
+  },
+  "NC_VisualAssociation_Motor": {
+    "LongName": "Network connectivity: VisualAssociation-Motor",
+    "Description": "Between-network connectivity between VisualAssociation and Motor regions"
+  },
+  "NC_SubcorticalCerebellum_SubcorticalCerebellum": {
+    "LongName": "Network connectivity: SubcorticalCerebellum-SubcorticalCerebellum",
+    "Description": "Within-network connectivity between SubcorticalCerebellum regions"
+  },
+  "NC_Thalamus_SubcorticalCerebellum": {
+    "LongName": "Network connectivity: Thalamus-SubcorticalCerebellum",
+    "Description": "Between-network connectivity between Thalamus and SubcorticalCerebellum regions"
+  },
+  "NC_Visual1_SubcorticalCerebellum": {
+    "LongName": "Network connectivity: Visual1-SubcorticalCerebellum",
+    "Description": "Between-network connectivity between Visual1 and SubcorticalCerebellum regions"
+  },
+  "NC_Visual2_SubcorticalCerebellum": {
+    "LongName": "Network connectivity: Visual2-SubcorticalCerebellum",
+    "Description": "Between-network connectivity between Visual2 and SubcorticalCerebellum regions"
+  },
+  "NC_VisualAssociation_SubcorticalCerebellum": {
+    "LongName": "Network connectivity: VisualAssociation-SubcorticalCerebellum",
+    "Description": "Between-network connectivity between VisualAssociation and SubcorticalCerebellum regions"
+  },
+  "NC_Thalamus_Thalamus": {
+    "LongName": "Network connectivity: Thalamus-Thalamus",
+    "Description": "Within-network connectivity between Thalamus regions"
+  },
+  "NC_Visual1_Thalamus": {
+    "LongName": "Network connectivity: Visual1-Thalamus",
+    "Description": "Between-network connectivity between Visual1 and Thalamus regions"
+  },
+  "NC_Visual2_Thalamus": {
+    "LongName": "Network connectivity: Visual2-Thalamus",
+    "Description": "Between-network connectivity between Visual2 and Thalamus regions"
+  },
+  "NC_VisualAssociation_Thalamus": {
+    "LongName": "Network connectivity: VisualAssociation-Thalamus",
+    "Description": "Between-network connectivity between VisualAssociation and Thalamus regions"
+  },
+  "NC_Visual1_Visual1": {
+    "LongName": "Network connectivity: Visual1-Visual1",
+    "Description": "Within-network connectivity between Visual1 regions"
+  },
+  "NC_Visual2_Visual1": {
+    "LongName": "Network connectivity: Visual2-Visual1",
+    "Description": "Between-network connectivity between Visual2 and Visual1 regions"
+  },
+  "NC_VisualAssociation_Visual1": {
+    "LongName": "Network connectivity: VisualAssociation-Visual1",
+    "Description": "Between-network connectivity between VisualAssociation and Visual1 regions"
+  },
+  "NC_Visual2_Visual2": {
+    "LongName": "Network connectivity: Visual2-Visual2",
+    "Description": "Within-network connectivity between Visual2 regions"
+  },
+  "NC_VisualAssociation_Visual2": {
+    "LongName": "Network connectivity: VisualAssociation-Visual2",
+    "Description": "Between-network connectivity between VisualAssociation and Visual2 regions"
+  },
+  "NC_VisualAssociation_VisualAssociation": {
+    "LongName": "Network connectivity: VisualAssociation-VisualAssociation",
+    "Description": "Within-network connectivity between VisualAssociation regions"
+  },
+  "ge_1": {
+    "LongName": "Geodesic entropy at mean-degree = 1",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 1"
+  },
+  "ge_2": {
+    "LongName": "Geodesic entropy at mean-degree = 2",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 2"
+  },
+  "ge_3": {
+    "LongName": "Geodesic entropy at mean-degree = 3",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 3"
+  },
+  "ge_4": {
+    "LongName": "Geodesic entropy at mean-degree = 4",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 4"
+  },
+  "ge_5": {
+    "LongName": "Geodesic entropy at mean-degree = 5",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 5"
+  },
+  "ge_6": {
+    "LongName": "Geodesic entropy at mean-degree = 6",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 6"
+  },
+  "ge_7": {
+    "LongName": "Geodesic entropy at mean-degree = 7",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 7"
+  },
+  "ge_8": {
+    "LongName": "Geodesic entropy at mean-degree = 8",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 8"
+  },
+  "ge_9": {
+    "LongName": "Geodesic entropy at mean-degree = 9",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 9"
+  },
+  "ge_10": {
+    "LongName": "Geodesic entropy at mean-degree = 10",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 10"
+  },
+  "ge_11": {
+    "LongName": "Geodesic entropy at mean-degree = 11",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 11"
+  },
+  "ge_12": {
+    "LongName": "Geodesic entropy at mean-degree = 12",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 12"
+  },
+  "ge_13": {
+    "LongName": "Geodesic entropy at mean-degree = 13",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 13"
+  },
+  "ge_14": {
+    "LongName": "Geodesic entropy at mean-degree = 14",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 14"
+  },
+  "ge_15": {
+    "LongName": "Geodesic entropy at mean-degree = 15",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 15"
+  },
+  "ge_16": {
+    "LongName": "Geodesic entropy at mean-degree = 16",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 16"
+  },
+  "ge_17": {
+    "LongName": "Geodesic entropy at mean-degree = 17",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 17"
+  },
+  "ge_18": {
+    "LongName": "Geodesic entropy at mean-degree = 18",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 18"
+  },
+  "ge_19": {
+    "LongName": "Geodesic entropy at mean-degree = 19",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 19"
+  },
+  "ge_20": {
+    "LongName": "Geodesic entropy at mean-degree = 20",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 20"
+  },
+  "ge_21": {
+    "LongName": "Geodesic entropy at mean-degree = 21",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 21"
+  },
+  "ge_22": {
+    "LongName": "Geodesic entropy at mean-degree = 22",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 22"
+  },
+  "ge_23": {
+    "LongName": "Geodesic entropy at mean-degree = 23",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 23"
+  },
+  "ge_24": {
+    "LongName": "Geodesic entropy at mean-degree = 24",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 24"
+  },
+  "ge_25": {
+    "LongName": "Geodesic entropy at mean-degree = 25",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 25"
+  },
+  "ge_26": {
+    "LongName": "Geodesic entropy at mean-degree = 26",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 26"
+  },
+  "ge_27": {
+    "LongName": "Geodesic entropy at mean-degree = 27",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 27"
+  },
+  "ge_28": {
+    "LongName": "Geodesic entropy at mean-degree = 28",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 28"
+  },
+  "ge_29": {
+    "LongName": "Geodesic entropy at mean-degree = 29",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 29"
+  },
+  "ge_30": {
+    "LongName": "Geodesic entropy at mean-degree = 30",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 30"
+  },
+  "ge_31": {
+    "LongName": "Geodesic entropy at mean-degree = 31",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 31"
+  },
+  "ge_32": {
+    "LongName": "Geodesic entropy at mean-degree = 32",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 32"
+  },
+  "ge_33": {
+    "LongName": "Geodesic entropy at mean-degree = 33",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 33"
+  },
+  "ge_34": {
+    "LongName": "Geodesic entropy at mean-degree = 34",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 34"
+  },
+  "ge_35": {
+    "LongName": "Geodesic entropy at mean-degree = 35",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 35"
+  },
+  "ge_36": {
+    "LongName": "Geodesic entropy at mean-degree = 36",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 36"
+  },
+  "ge_37": {
+    "LongName": "Geodesic entropy at mean-degree = 37",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 37"
+  },
+  "ge_38": {
+    "LongName": "Geodesic entropy at mean-degree = 38",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 38"
+  },
+  "ge_39": {
+    "LongName": "Geodesic entropy at mean-degree = 39",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 39"
+  },
+  "ge_40": {
+    "LongName": "Geodesic entropy at mean-degree = 40",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 40"
+  },
+  "ge_41": {
+    "LongName": "Geodesic entropy at mean-degree = 41",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 41"
+  },
+  "ge_42": {
+    "LongName": "Geodesic entropy at mean-degree = 42",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 42"
+  },
+  "ge_43": {
+    "LongName": "Geodesic entropy at mean-degree = 43",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 43"
+  },
+  "ge_44": {
+    "LongName": "Geodesic entropy at mean-degree = 44",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 44"
+  },
+  "ge_45": {
+    "LongName": "Geodesic entropy at mean-degree = 45",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 45"
+  },
+  "ge_46": {
+    "LongName": "Geodesic entropy at mean-degree = 46",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 46"
+  },
+  "ge_47": {
+    "LongName": "Geodesic entropy at mean-degree = 47",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 47"
+  },
+  "ge_48": {
+    "LongName": "Geodesic entropy at mean-degree = 48",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 48"
+  },
+  "ge_49": {
+    "LongName": "Geodesic entropy at mean-degree = 49",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 49"
+  },
+  "ge_50": {
+    "LongName": "Geodesic entropy at mean-degree = 50",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 50"
+  },
+  "ge_51": {
+    "LongName": "Geodesic entropy at mean-degree = 51",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 51"
+  },
+  "ge_52": {
+    "LongName": "Geodesic entropy at mean-degree = 52",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 52"
+  },
+  "ge_53": {
+    "LongName": "Geodesic entropy at mean-degree = 53",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 53"
+  },
+  "ge_54": {
+    "LongName": "Geodesic entropy at mean-degree = 54",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 54"
+  },
+  "ge_55": {
+    "LongName": "Geodesic entropy at mean-degree = 55",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 55"
+  },
+  "ge_56": {
+    "LongName": "Geodesic entropy at mean-degree = 56",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 56"
+  },
+  "ge_57": {
+    "LongName": "Geodesic entropy at mean-degree = 57",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 57"
+  },
+  "ge_58": {
+    "LongName": "Geodesic entropy at mean-degree = 58",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 58"
+  },
+  "ge_59": {
+    "LongName": "Geodesic entropy at mean-degree = 59",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 59"
+  },
+  "ge_60": {
+    "LongName": "Geodesic entropy at mean-degree = 60",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 60"
+  },
+  "ge_61": {
+    "LongName": "Geodesic entropy at mean-degree = 61",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 61"
+  },
+  "ge_62": {
+    "LongName": "Geodesic entropy at mean-degree = 62",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 62"
+  },
+  "ge_63": {
+    "LongName": "Geodesic entropy at mean-degree = 63",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 63"
+  },
+  "ge_64": {
+    "LongName": "Geodesic entropy at mean-degree = 64",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 64"
+  },
+  "ge_65": {
+    "LongName": "Geodesic entropy at mean-degree = 65",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 65"
+  },
+  "ge_66": {
+    "LongName": "Geodesic entropy at mean-degree = 66",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 66"
+  },
+  "ge_67": {
+    "LongName": "Geodesic entropy at mean-degree = 67",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 67"
+  },
+  "ge_68": {
+    "LongName": "Geodesic entropy at mean-degree = 68",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 68"
+  },
+  "ge_69": {
+    "LongName": "Geodesic entropy at mean-degree = 69",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 69"
+  },
+  "ge_70": {
+    "LongName": "Geodesic entropy at mean-degree = 70",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 70"
+  },
+  "ge_71": {
+    "LongName": "Geodesic entropy at mean-degree = 71",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 71"
+  },
+  "ge_72": {
+    "LongName": "Geodesic entropy at mean-degree = 72",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 72"
+  },
+  "ge_73": {
+    "LongName": "Geodesic entropy at mean-degree = 73",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 73"
+  },
+  "ge_74": {
+    "LongName": "Geodesic entropy at mean-degree = 74",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 74"
+  },
+  "ge_75": {
+    "LongName": "Geodesic entropy at mean-degree = 75",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 75"
+  },
+  "ge_76": {
+    "LongName": "Geodesic entropy at mean-degree = 76",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 76"
+  },
+  "ge_77": {
+    "LongName": "Geodesic entropy at mean-degree = 77",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 77"
+  },
+  "ge_78": {
+    "LongName": "Geodesic entropy at mean-degree = 78",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 78"
+  },
+  "ge_79": {
+    "LongName": "Geodesic entropy at mean-degree = 79",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 79"
+  },
+  "ge_80": {
+    "LongName": "Geodesic entropy at mean-degree = 80",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 80"
+  },
+  "ge_81": {
+    "LongName": "Geodesic entropy at mean-degree = 81",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 81"
+  },
+  "ge_82": {
+    "LongName": "Geodesic entropy at mean-degree = 82",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 82"
+  },
+  "ge_83": {
+    "LongName": "Geodesic entropy at mean-degree = 83",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 83"
+  },
+  "ge_84": {
+    "LongName": "Geodesic entropy at mean-degree = 84",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 84"
+  },
+  "ge_85": {
+    "LongName": "Geodesic entropy at mean-degree = 85",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 85"
+  },
+  "ge_86": {
+    "LongName": "Geodesic entropy at mean-degree = 86",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 86"
+  },
+  "ge_87": {
+    "LongName": "Geodesic entropy at mean-degree = 87",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 87"
+  },
+  "ge_88": {
+    "LongName": "Geodesic entropy at mean-degree = 88",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 88"
+  },
+  "ge_89": {
+    "LongName": "Geodesic entropy at mean-degree = 89",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 89"
+  },
+  "ge_90": {
+    "LongName": "Geodesic entropy at mean-degree = 90",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 90"
+  },
+  "ge_91": {
+    "LongName": "Geodesic entropy at mean-degree = 91",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 91"
+  },
+  "ge_92": {
+    "LongName": "Geodesic entropy at mean-degree = 92",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 92"
+  },
+  "ge_93": {
+    "LongName": "Geodesic entropy at mean-degree = 93",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 93"
+  },
+  "ge_94": {
+    "LongName": "Geodesic entropy at mean-degree = 94",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 94"
+  },
+  "ge_95": {
+    "LongName": "Geodesic entropy at mean-degree = 95",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 95"
+  },
+  "ge_96": {
+    "LongName": "Geodesic entropy at mean-degree = 96",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 96"
+  },
+  "ge_97": {
+    "LongName": "Geodesic entropy at mean-degree = 97",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 97"
+  },
+  "ge_98": {
+    "LongName": "Geodesic entropy at mean-degree = 98",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 98"
+  },
+  "ge_99": {
+    "LongName": "Geodesic entropy at mean-degree = 99",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 99"
+  },
+  "ge_100": {
+    "LongName": "Geodesic entropy at mean-degree = 100",
+    "Description": "Entropy of distribution of minimum path lengths across regions at mean-degree = 100"
+  },
+  "mscomplex": {
+    "LongName": "Meta-state complexity",
+    "Description": "Whole-brain meta-state complexity estimate"
+  },
+  "boldlzt": {
+    "LongName": "BOLD Lempel-Ziv complexity",
+    "Description": "BOLD time-series Lempel-Ziv complexity"
+  },
+  "q_max": {
+    "LongName": "Modularity (non-normalized, positive and negative weights)",
+    "Description": "Whole-brain modularity (non-normalized, positive and negative connectivity weights)"
+  },
+  "q_max_pos": {
+    "LongName": "Modularity (non-normalized, positive weights only)",
+    "Description": "Whole-brain modularity (non-normalized, positive connectivity weights only )"
+  },
+  "q_norm": {
+    "LongName": "Modularity (normalized, positive and negative weights)",
+    "Description": "Whole-brain modularity (normalized, positive and negative connectivity weights)"
+  },
+  "q_norm_pos": {
+    "LongName": "Modularity (normalized, positive weights only)",
+    "Description": "Whole-brain modularity (normalized, positive connectivity weights only )"
+  },
+  "NGSC_global": {
+    "LongName": "Whole-brain normalized global spatial complexity",
+    "Description": "Whole-brain normalized global spatial complexity"
+  },
+  "NGSC_R001_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R001-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R001 (in Frontoparietal network)"
+  },
+  "NGSC_R002_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R002-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R002 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R003_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R003-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R003 (in DefaultMode network)"
+  },
+  "NGSC_R004_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R004-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R004 (in Frontoparietal network)"
+  },
+  "NGSC_R005_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R005-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R005 (in DefaultMode network)"
+  },
+  "NGSC_R006_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R006-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R006 (in DefaultMode network)"
+  },
+  "NGSC_R007_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R007-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R007 (in Frontoparietal network)"
+  },
+  "NGSC_R008_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R008-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R008 (in Frontoparietal network)"
+  },
+  "NGSC_R009_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R009-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R009 (in Frontoparietal network)"
+  },
+  "NGSC_R010_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R010-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R010 (in MedialFrontal network)"
+  },
+  "NGSC_R011_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R011-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R011 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R012_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R012-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R012 (in MedialFrontal network)"
+  },
+  "NGSC_R013_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R013-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R013 (in DefaultMode network)"
+  },
+  "NGSC_R014_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R014-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R014 (in Frontoparietal network)"
+  },
+  "NGSC_R015_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R015-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R015 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R016_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R016-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R016 (in MedialFrontal network)"
+  },
+  "NGSC_R017_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R017-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R017 (in Frontoparietal network)"
+  },
+  "NGSC_R018_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R018-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R018 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R019_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R019-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R019 (in Frontoparietal network)"
+  },
+  "NGSC_R020_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R020-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R020 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R021_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R021-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R021 (in Frontoparietal network)"
+  },
+  "NGSC_R022_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R022-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R022 (in Frontoparietal network)"
+  },
+  "NGSC_R023_Motor": {
+    "LongName": "Normalized global spatial complexity: R023-Motor",
+    "Description": "Normalized global spatial complexity for region R023 (in Motor network)"
+  },
+  "NGSC_R024_Motor": {
+    "LongName": "Normalized global spatial complexity: R024-Motor",
+    "Description": "Normalized global spatial complexity for region R024 (in Motor network)"
+  },
+  "NGSC_R025_Motor": {
+    "LongName": "Normalized global spatial complexity: R025-Motor",
+    "Description": "Normalized global spatial complexity for region R025 (in Motor network)"
+  },
+  "NGSC_R026_Motor": {
+    "LongName": "Normalized global spatial complexity: R026-Motor",
+    "Description": "Normalized global spatial complexity for region R026 (in Motor network)"
+  },
+  "NGSC_R027_Motor": {
+    "LongName": "Normalized global spatial complexity: R027-Motor",
+    "Description": "Normalized global spatial complexity for region R027 (in Motor network)"
+  },
+  "NGSC_R028_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R028-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R028 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R029_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R029-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R029 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R030_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R030-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R030 (in Frontoparietal network)"
+  },
+  "NGSC_R031_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R031-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R031 (in Frontoparietal network)"
+  },
+  "NGSC_R032_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R032-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R032 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R033_Motor": {
+    "LongName": "Normalized global spatial complexity: R033-Motor",
+    "Description": "Normalized global spatial complexity for region R033 (in Motor network)"
+  },
+  "NGSC_R034_Motor": {
+    "LongName": "Normalized global spatial complexity: R034-Motor",
+    "Description": "Normalized global spatial complexity for region R034 (in Motor network)"
+  },
+  "NGSC_R035_Motor": {
+    "LongName": "Normalized global spatial complexity: R035-Motor",
+    "Description": "Normalized global spatial complexity for region R035 (in Motor network)"
+  },
+  "NGSC_R036_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R036-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R036 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R037_Motor": {
+    "LongName": "Normalized global spatial complexity: R037-Motor",
+    "Description": "Normalized global spatial complexity for region R037 (in Motor network)"
+  },
+  "NGSC_R038_Motor": {
+    "LongName": "Normalized global spatial complexity: R038-Motor",
+    "Description": "Normalized global spatial complexity for region R038 (in Motor network)"
+  },
+  "NGSC_R039_Motor": {
+    "LongName": "Normalized global spatial complexity: R039-Motor",
+    "Description": "Normalized global spatial complexity for region R039 (in Motor network)"
+  },
+  "NGSC_R040_Motor": {
+    "LongName": "Normalized global spatial complexity: R040-Motor",
+    "Description": "Normalized global spatial complexity for region R040 (in Motor network)"
+  },
+  "NGSC_R041_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R041-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R041 (in VisualAssociation network)"
+  },
+  "NGSC_R042_Visual1": {
+    "LongName": "Normalized global spatial complexity: R042-Visual1",
+    "Description": "Normalized global spatial complexity for region R042 (in Visual1 network)"
+  },
+  "NGSC_R043_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R043-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R043 (in VisualAssociation network)"
+  },
+  "NGSC_R044_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R044-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R044 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R045_Motor": {
+    "LongName": "Normalized global spatial complexity: R045-Motor",
+    "Description": "Normalized global spatial complexity for region R045 (in Motor network)"
+  },
+  "NGSC_R046_Motor": {
+    "LongName": "Normalized global spatial complexity: R046-Motor",
+    "Description": "Normalized global spatial complexity for region R046 (in Motor network)"
+  },
+  "NGSC_R047_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R047-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R047 (in Frontoparietal network)"
+  },
+  "NGSC_R048_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R048-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R048 (in Frontoparietal network)"
+  },
+  "NGSC_R049_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R049-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R049 (in DefaultMode network)"
+  },
+  "NGSC_R050_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R050-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R050 (in DefaultMode network)"
+  },
+  "NGSC_R051_Motor": {
+    "LongName": "Normalized global spatial complexity: R051-Motor",
+    "Description": "Normalized global spatial complexity for region R051 (in Motor network)"
+  },
+  "NGSC_R052_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R052-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R052 (in MedialFrontal network)"
+  },
+  "NGSC_R053_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R053-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R053 (in MedialFrontal network)"
+  },
+  "NGSC_R054_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R054-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R054 (in MedialFrontal network)"
+  },
+  "NGSC_R055_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R055-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R055 (in Frontoparietal network)"
+  },
+  "NGSC_R056_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R056-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R056 (in MedialFrontal network)"
+  },
+  "NGSC_R057_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R057-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R057 (in MedialFrontal network)"
+  },
+  "NGSC_R058_Motor": {
+    "LongName": "Normalized global spatial complexity: R058-Motor",
+    "Description": "Normalized global spatial complexity for region R058 (in Motor network)"
+  },
+  "NGSC_R059_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R059-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R059 (in VisualAssociation network)"
+  },
+  "NGSC_R060_Motor": {
+    "LongName": "Normalized global spatial complexity: R060-Motor",
+    "Description": "Normalized global spatial complexity for region R060 (in Motor network)"
+  },
+  "NGSC_R061_Motor": {
+    "LongName": "Normalized global spatial complexity: R061-Motor",
+    "Description": "Normalized global spatial complexity for region R061 (in Motor network)"
+  },
+  "NGSC_R062_Motor": {
+    "LongName": "Normalized global spatial complexity: R062-Motor",
+    "Description": "Normalized global spatial complexity for region R062 (in Motor network)"
+  },
+  "NGSC_R063_Motor": {
+    "LongName": "Normalized global spatial complexity: R063-Motor",
+    "Description": "Normalized global spatial complexity for region R063 (in Motor network)"
+  },
+  "NGSC_R064_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R064-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R064 (in MedialFrontal network)"
+  },
+  "NGSC_R065_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R065-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R065 (in MedialFrontal network)"
+  },
+  "NGSC_R066_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R066-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R066 (in VisualAssociation network)"
+  },
+  "NGSC_R067_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R067-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R067 (in VisualAssociation network)"
+  },
+  "NGSC_R068_Visual1": {
+    "LongName": "Normalized global spatial complexity: R068-Visual1",
+    "Description": "Normalized global spatial complexity for region R068 (in Visual1 network)"
+  },
+  "NGSC_R069_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R069-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R069 (in VisualAssociation network)"
+  },
+  "NGSC_R070_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R070-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R070 (in Frontoparietal network)"
+  },
+  "NGSC_R071_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R071-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R071 (in VisualAssociation network)"
+  },
+  "NGSC_R072_Visual1": {
+    "LongName": "Normalized global spatial complexity: R072-Visual1",
+    "Description": "Normalized global spatial complexity for region R072 (in Visual1 network)"
+  },
+  "NGSC_R073_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R073-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R073 (in VisualAssociation network)"
+  },
+  "NGSC_R074_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R074-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R074 (in VisualAssociation network)"
+  },
+  "NGSC_R075_Visual1": {
+    "LongName": "Normalized global spatial complexity: R075-Visual1",
+    "Description": "Normalized global spatial complexity for region R075 (in Visual1 network)"
+  },
+  "NGSC_R076_Visual2": {
+    "LongName": "Normalized global spatial complexity: R076-Visual2",
+    "Description": "Normalized global spatial complexity for region R076 (in Visual2 network)"
+  },
+  "NGSC_R077_Visual1": {
+    "LongName": "Normalized global spatial complexity: R077-Visual1",
+    "Description": "Normalized global spatial complexity for region R077 (in Visual1 network)"
+  },
+  "NGSC_R078_Visual2": {
+    "LongName": "Normalized global spatial complexity: R078-Visual2",
+    "Description": "Normalized global spatial complexity for region R078 (in Visual2 network)"
+  },
+  "NGSC_R079_Visual1": {
+    "LongName": "Normalized global spatial complexity: R079-Visual1",
+    "Description": "Normalized global spatial complexity for region R079 (in Visual1 network)"
+  },
+  "NGSC_R080_Visual1": {
+    "LongName": "Normalized global spatial complexity: R080-Visual1",
+    "Description": "Normalized global spatial complexity for region R080 (in Visual1 network)"
+  },
+  "NGSC_R081_Visual2": {
+    "LongName": "Normalized global spatial complexity: R081-Visual2",
+    "Description": "Normalized global spatial complexity for region R081 (in Visual2 network)"
+  },
+  "NGSC_R082_Visual1": {
+    "LongName": "Normalized global spatial complexity: R082-Visual1",
+    "Description": "Normalized global spatial complexity for region R082 (in Visual1 network)"
+  },
+  "NGSC_R083_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R083-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R083 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R084_Motor": {
+    "LongName": "Normalized global spatial complexity: R084-Motor",
+    "Description": "Normalized global spatial complexity for region R084 (in Motor network)"
+  },
+  "NGSC_R085_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R085-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R085 (in DefaultMode network)"
+  },
+  "NGSC_R086_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R086-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R086 (in DefaultMode network)"
+  },
+  "NGSC_R087_Visual1": {
+    "LongName": "Normalized global spatial complexity: R087-Visual1",
+    "Description": "Normalized global spatial complexity for region R087 (in Visual1 network)"
+  },
+  "NGSC_R088_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R088-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R088 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R089_Motor": {
+    "LongName": "Normalized global spatial complexity: R089-Motor",
+    "Description": "Normalized global spatial complexity for region R089 (in Motor network)"
+  },
+  "NGSC_R090_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R090-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R090 (in DefaultMode network)"
+  },
+  "NGSC_R091_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R091-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R091 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R092_Motor": {
+    "LongName": "Normalized global spatial complexity: R092-Motor",
+    "Description": "Normalized global spatial complexity for region R092 (in Motor network)"
+  },
+  "NGSC_R093_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R093-Thalamus",
+    "Description": "Normalized global spatial complexity for region R093 (in Thalamus network)"
+  },
+  "NGSC_R094_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R094-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R094 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R095_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R095-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R095 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R096_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R096-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R096 (in DefaultMode network)"
+  },
+  "NGSC_R097_Motor": {
+    "LongName": "Normalized global spatial complexity: R097-Motor",
+    "Description": "Normalized global spatial complexity for region R097 (in Motor network)"
+  },
+  "NGSC_R098_Visual1": {
+    "LongName": "Normalized global spatial complexity: R098-Visual1",
+    "Description": "Normalized global spatial complexity for region R098 (in Visual1 network)"
+  },
+  "NGSC_R099_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R099-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R099 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R100_Visual2": {
+    "LongName": "Normalized global spatial complexity: R100-Visual2",
+    "Description": "Normalized global spatial complexity for region R100 (in Visual2 network)"
+  },
+  "NGSC_R101_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R101-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R101 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R102_Visual2": {
+    "LongName": "Normalized global spatial complexity: R102-Visual2",
+    "Description": "Normalized global spatial complexity for region R102 (in Visual2 network)"
+  },
+  "NGSC_R103_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R103-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R103 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R104_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R104-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R104 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R105_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R105-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R105 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R106_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R106-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R106 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R107_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R107-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R107 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R108_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R108-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R108 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R109_Motor": {
+    "LongName": "Normalized global spatial complexity: R109-Motor",
+    "Description": "Normalized global spatial complexity for region R109 (in Motor network)"
+  },
+  "NGSC_R110_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R110-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R110 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R111_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R111-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R111 (in Frontoparietal network)"
+  },
+  "NGSC_R112_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R112-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R112 (in Frontoparietal network)"
+  },
+  "NGSC_R113_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R113-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R113 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R114_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R114-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R114 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R115_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R115-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R115 (in DefaultMode network)"
+  },
+  "NGSC_R116_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R116-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R116 (in Frontoparietal network)"
+  },
+  "NGSC_R117_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R117-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R117 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R118_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R118-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R118 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R119_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R119-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R119 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R120_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R120-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R120 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R121_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R121-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R121 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R122_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R122-Thalamus",
+    "Description": "Normalized global spatial complexity for region R122 (in Thalamus network)"
+  },
+  "NGSC_R123_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R123-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R123 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R124_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R124-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R124 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R125_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R125-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R125 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R126_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R126-Thalamus",
+    "Description": "Normalized global spatial complexity for region R126 (in Thalamus network)"
+  },
+  "NGSC_R127_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R127-Thalamus",
+    "Description": "Normalized global spatial complexity for region R127 (in Thalamus network)"
+  },
+  "NGSC_R128_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R128-Thalamus",
+    "Description": "Normalized global spatial complexity for region R128 (in Thalamus network)"
+  },
+  "NGSC_R129_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R129-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R129 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R130_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R130-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R130 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R131_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R131-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R131 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R132_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R132-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R132 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R133_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R133-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R133 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R134_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R134-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R134 (in DefaultMode network)"
+  },
+  "NGSC_R135_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R135-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R135 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R136_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R136-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R136 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R137_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R137-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R137 (in MedialFrontal network)"
+  },
+  "NGSC_R138_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R138-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R138 (in DefaultMode network)"
+  },
+  "NGSC_R139_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R139-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R139 (in Frontoparietal network)"
+  },
+  "NGSC_R140_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R140-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R140 (in MedialFrontal network)"
+  },
+  "NGSC_R141_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R141-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R141 (in DefaultMode network)"
+  },
+  "NGSC_R142_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R142-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R142 (in Frontoparietal network)"
+  },
+  "NGSC_R143_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R143-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R143 (in Frontoparietal network)"
+  },
+  "NGSC_R144_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R144-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R144 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R145_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R145-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R145 (in MedialFrontal network)"
+  },
+  "NGSC_R146_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R146-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R146 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R147_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R147-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R147 (in Frontoparietal network)"
+  },
+  "NGSC_R148_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R148-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R148 (in MedialFrontal network)"
+  },
+  "NGSC_R149_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R149-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R149 (in MedialFrontal network)"
+  },
+  "NGSC_R150_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R150-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R150 (in MedialFrontal network)"
+  },
+  "NGSC_R151_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R151-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R151 (in MedialFrontal network)"
+  },
+  "NGSC_R152_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R152-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R152 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R153_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R153-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R153 (in MedialFrontal network)"
+  },
+  "NGSC_R154_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R154-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R154 (in Frontoparietal network)"
+  },
+  "NGSC_R155_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R155-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R155 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R156_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R156-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R156 (in MedialFrontal network)"
+  },
+  "NGSC_R157_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R157-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R157 (in Frontoparietal network)"
+  },
+  "NGSC_R158_Motor": {
+    "LongName": "Normalized global spatial complexity: R158-Motor",
+    "Description": "Normalized global spatial complexity for region R158 (in Motor network)"
+  },
+  "NGSC_R159_Motor": {
+    "LongName": "Normalized global spatial complexity: R159-Motor",
+    "Description": "Normalized global spatial complexity for region R159 (in Motor network)"
+  },
+  "NGSC_R160_Motor": {
+    "LongName": "Normalized global spatial complexity: R160-Motor",
+    "Description": "Normalized global spatial complexity for region R160 (in Motor network)"
+  },
+  "NGSC_R161_Motor": {
+    "LongName": "Normalized global spatial complexity: R161-Motor",
+    "Description": "Normalized global spatial complexity for region R161 (in Motor network)"
+  },
+  "NGSC_R162_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R162-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R162 (in MedialFrontal network)"
+  },
+  "NGSC_R163_Motor": {
+    "LongName": "Normalized global spatial complexity: R163-Motor",
+    "Description": "Normalized global spatial complexity for region R163 (in Motor network)"
+  },
+  "NGSC_R164_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R164-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R164 (in Frontoparietal network)"
+  },
+  "NGSC_R165_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R165-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R165 (in MedialFrontal network)"
+  },
+  "NGSC_R166_Motor": {
+    "LongName": "Normalized global spatial complexity: R166-Motor",
+    "Description": "Normalized global spatial complexity for region R166 (in Motor network)"
+  },
+  "NGSC_R167_Motor": {
+    "LongName": "Normalized global spatial complexity: R167-Motor",
+    "Description": "Normalized global spatial complexity for region R167 (in Motor network)"
+  },
+  "NGSC_R168_Motor": {
+    "LongName": "Normalized global spatial complexity: R168-Motor",
+    "Description": "Normalized global spatial complexity for region R168 (in Motor network)"
+  },
+  "NGSC_R169_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R169-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R169 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R170_Motor": {
+    "LongName": "Normalized global spatial complexity: R170-Motor",
+    "Description": "Normalized global spatial complexity for region R170 (in Motor network)"
+  },
+  "NGSC_R171_Motor": {
+    "LongName": "Normalized global spatial complexity: R171-Motor",
+    "Description": "Normalized global spatial complexity for region R171 (in Motor network)"
+  },
+  "NGSC_R172_Motor": {
+    "LongName": "Normalized global spatial complexity: R172-Motor",
+    "Description": "Normalized global spatial complexity for region R172 (in Motor network)"
+  },
+  "NGSC_R173_Motor": {
+    "LongName": "Normalized global spatial complexity: R173-Motor",
+    "Description": "Normalized global spatial complexity for region R173 (in Motor network)"
+  },
+  "NGSC_R174_Motor": {
+    "LongName": "Normalized global spatial complexity: R174-Motor",
+    "Description": "Normalized global spatial complexity for region R174 (in Motor network)"
+  },
+  "NGSC_R175_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R175-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R175 (in VisualAssociation network)"
+  },
+  "NGSC_R176_Visual1": {
+    "LongName": "Normalized global spatial complexity: R176-Visual1",
+    "Description": "Normalized global spatial complexity for region R176 (in Visual1 network)"
+  },
+  "NGSC_R177_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R177-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R177 (in VisualAssociation network)"
+  },
+  "NGSC_R178_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R178-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R178 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R179_Motor": {
+    "LongName": "Normalized global spatial complexity: R179-Motor",
+    "Description": "Normalized global spatial complexity for region R179 (in Motor network)"
+  },
+  "NGSC_R180_Motor": {
+    "LongName": "Normalized global spatial complexity: R180-Motor",
+    "Description": "Normalized global spatial complexity for region R180 (in Motor network)"
+  },
+  "NGSC_R181_Motor": {
+    "LongName": "Normalized global spatial complexity: R181-Motor",
+    "Description": "Normalized global spatial complexity for region R181 (in Motor network)"
+  },
+  "NGSC_R182_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R182-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R182 (in Frontoparietal network)"
+  },
+  "NGSC_R183_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R183-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R183 (in MedialFrontal network)"
+  },
+  "NGSC_R184_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R184-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R184 (in Frontoparietal network)"
+  },
+  "NGSC_R185_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R185-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R185 (in MedialFrontal network)"
+  },
+  "NGSC_R186_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R186-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R186 (in MedialFrontal network)"
+  },
+  "NGSC_R187_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R187-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R187 (in MedialFrontal network)"
+  },
+  "NGSC_R188_Motor": {
+    "LongName": "Normalized global spatial complexity: R188-Motor",
+    "Description": "Normalized global spatial complexity for region R188 (in Motor network)"
+  },
+  "NGSC_R189_Motor": {
+    "LongName": "Normalized global spatial complexity: R189-Motor",
+    "Description": "Normalized global spatial complexity for region R189 (in Motor network)"
+  },
+  "NGSC_R190_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R190-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R190 (in MedialFrontal network)"
+  },
+  "NGSC_R191_Motor": {
+    "LongName": "Normalized global spatial complexity: R191-Motor",
+    "Description": "Normalized global spatial complexity for region R191 (in Motor network)"
+  },
+  "NGSC_R192_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R192-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R192 (in MedialFrontal network)"
+  },
+  "NGSC_R193_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R193-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R193 (in Frontoparietal network)"
+  },
+  "NGSC_R194_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R194-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R194 (in MedialFrontal network)"
+  },
+  "NGSC_R195_Motor": {
+    "LongName": "Normalized global spatial complexity: R195-Motor",
+    "Description": "Normalized global spatial complexity for region R195 (in Motor network)"
+  },
+  "NGSC_R196_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R196-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R196 (in Frontoparietal network)"
+  },
+  "NGSC_R197_Motor": {
+    "LongName": "Normalized global spatial complexity: R197-Motor",
+    "Description": "Normalized global spatial complexity for region R197 (in Motor network)"
+  },
+  "NGSC_R198_Visual1": {
+    "LongName": "Normalized global spatial complexity: R198-Visual1",
+    "Description": "Normalized global spatial complexity for region R198 (in Visual1 network)"
+  },
+  "NGSC_R199_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R199-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R199 (in Frontoparietal network)"
+  },
+  "NGSC_R200_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R200-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R200 (in VisualAssociation network)"
+  },
+  "NGSC_R201_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R201-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R201 (in VisualAssociation network)"
+  },
+  "NGSC_R202_Motor": {
+    "LongName": "Normalized global spatial complexity: R202-Motor",
+    "Description": "Normalized global spatial complexity for region R202 (in Motor network)"
+  },
+  "NGSC_R203_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R203-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R203 (in DefaultMode network)"
+  },
+  "NGSC_R204_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R204-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R204 (in VisualAssociation network)"
+  },
+  "NGSC_R205_Visual1": {
+    "LongName": "Normalized global spatial complexity: R205-Visual1",
+    "Description": "Normalized global spatial complexity for region R205 (in Visual1 network)"
+  },
+  "NGSC_R206_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R206-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R206 (in VisualAssociation network)"
+  },
+  "NGSC_R207_Visual1": {
+    "LongName": "Normalized global spatial complexity: R207-Visual1",
+    "Description": "Normalized global spatial complexity for region R207 (in Visual1 network)"
+  },
+  "NGSC_R208_Visual1": {
+    "LongName": "Normalized global spatial complexity: R208-Visual1",
+    "Description": "Normalized global spatial complexity for region R208 (in Visual1 network)"
+  },
+  "NGSC_R209_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R209-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R209 (in VisualAssociation network)"
+  },
+  "NGSC_R210_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R210-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R210 (in VisualAssociation network)"
+  },
+  "NGSC_R211_Visual1": {
+    "LongName": "Normalized global spatial complexity: R211-Visual1",
+    "Description": "Normalized global spatial complexity for region R211 (in Visual1 network)"
+  },
+  "NGSC_R212_Visual2": {
+    "LongName": "Normalized global spatial complexity: R212-Visual2",
+    "Description": "Normalized global spatial complexity for region R212 (in Visual2 network)"
+  },
+  "NGSC_R213_Visual2": {
+    "LongName": "Normalized global spatial complexity: R213-Visual2",
+    "Description": "Normalized global spatial complexity for region R213 (in Visual2 network)"
+  },
+  "NGSC_R214_Visual2": {
+    "LongName": "Normalized global spatial complexity: R214-Visual2",
+    "Description": "Normalized global spatial complexity for region R214 (in Visual2 network)"
+  },
+  "NGSC_R215_Visual1": {
+    "LongName": "Normalized global spatial complexity: R215-Visual1",
+    "Description": "Normalized global spatial complexity for region R215 (in Visual1 network)"
+  },
+  "NGSC_R216_Visual1": {
+    "LongName": "Normalized global spatial complexity: R216-Visual1",
+    "Description": "Normalized global spatial complexity for region R216 (in Visual1 network)"
+  },
+  "NGSC_R217_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R217-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R217 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R218_Motor": {
+    "LongName": "Normalized global spatial complexity: R218-Motor",
+    "Description": "Normalized global spatial complexity for region R218 (in Motor network)"
+  },
+  "NGSC_R219_MedialFrontal": {
+    "LongName": "Normalized global spatial complexity: R219-MedialFrontal",
+    "Description": "Normalized global spatial complexity for region R219 (in MedialFrontal network)"
+  },
+  "NGSC_R220_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R220-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R220 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R221_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R221-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R221 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R222_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R222-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R222 (in DefaultMode network)"
+  },
+  "NGSC_R223_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R223-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R223 (in DefaultMode network)"
+  },
+  "NGSC_R224_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R224-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R224 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R225_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R225-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R225 (in DefaultMode network)"
+  },
+  "NGSC_R226_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R226-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R226 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R227_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R227-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R227 (in DefaultMode network)"
+  },
+  "NGSC_R228_Motor": {
+    "LongName": "Normalized global spatial complexity: R228-Motor",
+    "Description": "Normalized global spatial complexity for region R228 (in Motor network)"
+  },
+  "NGSC_R229_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R229-Thalamus",
+    "Description": "Normalized global spatial complexity for region R229 (in Thalamus network)"
+  },
+  "NGSC_R230_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R230-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R230 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R231_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R231-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R231 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R232_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R232-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R232 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R233_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R233-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R233 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R234_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R234-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R234 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R235_Motor": {
+    "LongName": "Normalized global spatial complexity: R235-Motor",
+    "Description": "Normalized global spatial complexity for region R235 (in Motor network)"
+  },
+  "NGSC_R236_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R236-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R236 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R237_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R237-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R237 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R238_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R238-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R238 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R239_DefaultMode": {
+    "LongName": "Normalized global spatial complexity: R239-DefaultMode",
+    "Description": "Normalized global spatial complexity for region R239 (in DefaultMode network)"
+  },
+  "NGSC_R240_VisualAssociation": {
+    "LongName": "Normalized global spatial complexity: R240-VisualAssociation",
+    "Description": "Normalized global spatial complexity for region R240 (in VisualAssociation network)"
+  },
+  "NGSC_R241_Visual2": {
+    "LongName": "Normalized global spatial complexity: R241-Visual2",
+    "Description": "Normalized global spatial complexity for region R241 (in Visual2 network)"
+  },
+  "NGSC_R242_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R242-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R242 (in Frontoparietal network)"
+  },
+  "NGSC_R243_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R243-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R243 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R244_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R244-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R244 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R245_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R245-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R245 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R246_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R246-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R246 (in Frontoparietal network)"
+  },
+  "NGSC_R247_Frontoparietal": {
+    "LongName": "Normalized global spatial complexity: R247-Frontoparietal",
+    "Description": "Normalized global spatial complexity for region R247 (in Frontoparietal network)"
+  },
+  "NGSC_R248_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R248-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R248 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R249_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R249-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R249 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R250_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R250-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R250 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R251_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R251-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R251 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R252_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R252-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R252 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R253_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R253-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R253 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R254_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R254-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R254 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R255_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R255-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R255 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R256_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R256-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R256 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R257_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R257-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R257 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R258_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R258-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R258 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R259_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R259-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R259 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R260_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R260-Thalamus",
+    "Description": "Normalized global spatial complexity for region R260 (in Thalamus network)"
+  },
+  "NGSC_R261_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R261-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R261 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R262_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R262-Thalamus",
+    "Description": "Normalized global spatial complexity for region R262 (in Thalamus network)"
+  },
+  "NGSC_R263_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R263-Thalamus",
+    "Description": "Normalized global spatial complexity for region R263 (in Thalamus network)"
+  },
+  "NGSC_R264_Thalamus": {
+    "LongName": "Normalized global spatial complexity: R264-Thalamus",
+    "Description": "Normalized global spatial complexity for region R264 (in Thalamus network)"
+  },
+  "NGSC_R265_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R265-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R265 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R266_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R266-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R266 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R267_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R267-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R267 (in SubcorticalCerebellum network)"
+  },
+  "NGSC_R268_SubcorticalCerebellum": {
+    "LongName": "Normalized global spatial complexity: R268-SubcorticalCerebellum",
+    "Description": "Normalized global spatial complexity for region R268 (in SubcorticalCerebellum network)"
+  },
+  "MSSE_S1_DefaultMode": {
+    "LongName": "Multi-scale sample entropy: Scale S1, DefaultMode Network",
+    "Description": "Multi-scale sample entropy: Scale S1, DefaultMode Network"
+  },
+  "MSSE_S1_Frontoparietal": {
+    "LongName": "Multi-scale sample entropy: Scale S1, Frontoparietal Network",
+    "Description": "Multi-scale sample entropy: Scale S1, Frontoparietal Network"
+  },
+  "MSSE_S1_MedialFrontal": {
+    "LongName": "Multi-scale sample entropy: Scale S1, MedialFrontal Network",
+    "Description": "Multi-scale sample entropy: Scale S1, MedialFrontal Network"
+  },
+  "MSSE_S1_Motor": {
+    "LongName": "Multi-scale sample entropy: Scale S1, Motor Network",
+    "Description": "Multi-scale sample entropy: Scale S1, Motor Network"
+  },
+  "MSSE_S1_SubcorticalCerebellum": {
+    "LongName": "Multi-scale sample entropy: Scale S1, SubcorticalCerebellum Network",
+    "Description": "Multi-scale sample entropy: Scale S1, SubcorticalCerebellum Network"
+  },
+  "MSSE_S1_Thalamus": {
+    "LongName": "Multi-scale sample entropy: Scale S1, Thalamus Network",
+    "Description": "Multi-scale sample entropy: Scale S1, Thalamus Network"
+  },
+  "MSSE_S1_Visual1": {
+    "LongName": "Multi-scale sample entropy: Scale S1, Visual1 Network",
+    "Description": "Multi-scale sample entropy: Scale S1, Visual1 Network"
+  },
+  "MSSE_S1_Visual2": {
+    "LongName": "Multi-scale sample entropy: Scale S1, Visual2 Network",
+    "Description": "Multi-scale sample entropy: Scale S1, Visual2 Network"
+  },
+  "MSSE_S1_VisualAssociation": {
+    "LongName": "Multi-scale sample entropy: Scale S1, VisualAssociation Network",
+    "Description": "Multi-scale sample entropy: Scale S1, VisualAssociation Network"
+  },
+  "MSSE_S2_DefaultMode": {
+    "LongName": "Multi-scale sample entropy: Scale S2, DefaultMode Network",
+    "Description": "Multi-scale sample entropy: Scale S2, DefaultMode Network"
+  },
+  "MSSE_S2_Frontoparietal": {
+    "LongName": "Multi-scale sample entropy: Scale S2, Frontoparietal Network",
+    "Description": "Multi-scale sample entropy: Scale S2, Frontoparietal Network"
+  },
+  "MSSE_S2_MedialFrontal": {
+    "LongName": "Multi-scale sample entropy: Scale S2, MedialFrontal Network",
+    "Description": "Multi-scale sample entropy: Scale S2, MedialFrontal Network"
+  },
+  "MSSE_S2_Motor": {
+    "LongName": "Multi-scale sample entropy: Scale S2, Motor Network",
+    "Description": "Multi-scale sample entropy: Scale S2, Motor Network"
+  },
+  "MSSE_S2_SubcorticalCerebellum": {
+    "LongName": "Multi-scale sample entropy: Scale S2, SubcorticalCerebellum Network",
+    "Description": "Multi-scale sample entropy: Scale S2, SubcorticalCerebellum Network"
+  },
+  "MSSE_S2_Thalamus": {
+    "LongName": "Multi-scale sample entropy: Scale S2, Thalamus Network",
+    "Description": "Multi-scale sample entropy: Scale S2, Thalamus Network"
+  },
+  "MSSE_S2_Visual1": {
+    "LongName": "Multi-scale sample entropy: Scale S2, Visual1 Network",
+    "Description": "Multi-scale sample entropy: Scale S2, Visual1 Network"
+  },
+  "MSSE_S2_Visual2": {
+    "LongName": "Multi-scale sample entropy: Scale S2, Visual2 Network",
+    "Description": "Multi-scale sample entropy: Scale S2, Visual2 Network"
+  },
+  "MSSE_S2_VisualAssociation": {
+    "LongName": "Multi-scale sample entropy: Scale S2, VisualAssociation Network",
+    "Description": "Multi-scale sample entropy: Scale S2, VisualAssociation Network"
+  },
+  "MSSE_S3_DefaultMode": {
+    "LongName": "Multi-scale sample entropy: Scale S3, DefaultMode Network",
+    "Description": "Multi-scale sample entropy: Scale S3, DefaultMode Network"
+  },
+  "MSSE_S3_Frontoparietal": {
+    "LongName": "Multi-scale sample entropy: Scale S3, Frontoparietal Network",
+    "Description": "Multi-scale sample entropy: Scale S3, Frontoparietal Network"
+  },
+  "MSSE_S3_MedialFrontal": {
+    "LongName": "Multi-scale sample entropy: Scale S3, MedialFrontal Network",
+    "Description": "Multi-scale sample entropy: Scale S3, MedialFrontal Network"
+  },
+  "MSSE_S3_Motor": {
+    "LongName": "Multi-scale sample entropy: Scale S3, Motor Network",
+    "Description": "Multi-scale sample entropy: Scale S3, Motor Network"
+  },
+  "MSSE_S3_SubcorticalCerebellum": {
+    "LongName": "Multi-scale sample entropy: Scale S3, SubcorticalCerebellum Network",
+    "Description": "Multi-scale sample entropy: Scale S3, SubcorticalCerebellum Network"
+  },
+  "MSSE_S3_Thalamus": {
+    "LongName": "Multi-scale sample entropy: Scale S3, Thalamus Network",
+    "Description": "Multi-scale sample entropy: Scale S3, Thalamus Network"
+  },
+  "MSSE_S3_Visual1": {
+    "LongName": "Multi-scale sample entropy: Scale S3, Visual1 Network",
+    "Description": "Multi-scale sample entropy: Scale S3, Visual1 Network"
+  },
+  "MSSE_S3_Visual2": {
+    "LongName": "Multi-scale sample entropy: Scale S3, Visual2 Network",
+    "Description": "Multi-scale sample entropy: Scale S3, Visual2 Network"
+  },
+  "MSSE_S3_VisualAssociation": {
+    "LongName": "Multi-scale sample entropy: Scale S3, VisualAssociation Network",
+    "Description": "Multi-scale sample entropy: Scale S3, VisualAssociation Network"
+  },
+  "MSSE_S4_DefaultMode": {
+    "LongName": "Multi-scale sample entropy: Scale S4, DefaultMode Network",
+    "Description": "Multi-scale sample entropy: Scale S4, DefaultMode Network"
+  },
+  "MSSE_S4_Frontoparietal": {
+    "LongName": "Multi-scale sample entropy: Scale S4, Frontoparietal Network",
+    "Description": "Multi-scale sample entropy: Scale S4, Frontoparietal Network"
+  },
+  "MSSE_S4_MedialFrontal": {
+    "LongName": "Multi-scale sample entropy: Scale S4, MedialFrontal Network",
+    "Description": "Multi-scale sample entropy: Scale S4, MedialFrontal Network"
+  },
+  "MSSE_S4_Motor": {
+    "LongName": "Multi-scale sample entropy: Scale S4, Motor Network",
+    "Description": "Multi-scale sample entropy: Scale S4, Motor Network"
+  },
+  "MSSE_S4_SubcorticalCerebellum": {
+    "LongName": "Multi-scale sample entropy: Scale S4, SubcorticalCerebellum Network",
+    "Description": "Multi-scale sample entropy: Scale S4, SubcorticalCerebellum Network"
+  },
+  "MSSE_S4_Thalamus": {
+    "LongName": "Multi-scale sample entropy: Scale S4, Thalamus Network",
+    "Description": "Multi-scale sample entropy: Scale S4, Thalamus Network"
+  },
+  "MSSE_S4_Visual1": {
+    "LongName": "Multi-scale sample entropy: Scale S4, Visual1 Network",
+    "Description": "Multi-scale sample entropy: Scale S4, Visual1 Network"
+  },
+  "MSSE_S4_Visual2": {
+    "LongName": "Multi-scale sample entropy: Scale S4, Visual2 Network",
+    "Description": "Multi-scale sample entropy: Scale S4, Visual2 Network"
+  },
+  "MSSE_S4_VisualAssociation": {
+    "LongName": "Multi-scale sample entropy: Scale S4, VisualAssociation Network",
+    "Description": "Multi-scale sample entropy: Scale S4, VisualAssociation Network"
+  },
+  "MSSE_S5_DefaultMode": {
+    "LongName": "Multi-scale sample entropy: Scale S5, DefaultMode Network",
+    "Description": "Multi-scale sample entropy: Scale S5, DefaultMode Network"
+  },
+  "MSSE_S5_Frontoparietal": {
+    "LongName": "Multi-scale sample entropy: Scale S5, Frontoparietal Network",
+    "Description": "Multi-scale sample entropy: Scale S5, Frontoparietal Network"
+  },
+  "MSSE_S5_MedialFrontal": {
+    "LongName": "Multi-scale sample entropy: Scale S5, MedialFrontal Network",
+    "Description": "Multi-scale sample entropy: Scale S5, MedialFrontal Network"
+  },
+  "MSSE_S5_Motor": {
+    "LongName": "Multi-scale sample entropy: Scale S5, Motor Network",
+    "Description": "Multi-scale sample entropy: Scale S5, Motor Network"
+  },
+  "MSSE_S5_SubcorticalCerebellum": {
+    "LongName": "Multi-scale sample entropy: Scale S5, SubcorticalCerebellum Network",
+    "Description": "Multi-scale sample entropy: Scale S5, SubcorticalCerebellum Network"
+  },
+  "MSSE_S5_Thalamus": {
+    "LongName": "Multi-scale sample entropy: Scale S5, Thalamus Network",
+    "Description": "Multi-scale sample entropy: Scale S5, Thalamus Network"
+  },
+  "MSSE_S5_Visual1": {
+    "LongName": "Multi-scale sample entropy: Scale S5, Visual1 Network",
+    "Description": "Multi-scale sample entropy: Scale S5, Visual1 Network"
+  },
+  "MSSE_S5_Visual2": {
+    "LongName": "Multi-scale sample entropy: Scale S5, Visual2 Network",
+    "Description": "Multi-scale sample entropy: Scale S5, Visual2 Network"
+  },
+  "MSSE_S5_VisualAssociation": {
+    "LongName": "Multi-scale sample entropy: Scale S5, VisualAssociation Network",
+    "Description": "Multi-scale sample entropy: Scale S5, VisualAssociation Network"
+  },
+  "DCC_DefaultMode_DefaultMode": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-DefaultMode",
+    "Description": "Within-network DCC entropy between DefaultMode regions"
+  },
+  "DCC_Frontoparietal_Frontoparietal": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-Frontoparietal",
+    "Description": "Within-network DCC entropy between Frontoparietal regions"
+  },
+  "DCC_MedialFrontal_MedialFrontal": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-MedialFrontal",
+    "Description": "Within-network DCC entropy between MedialFrontal regions"
+  },
+  "DCC_Motor_Motor": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Motor-Motor",
+    "Description": "Within-network DCC entropy between Motor regions"
+  },
+  "DCC_SubcorticalCerebellum_SubcorticalCerebellum": {
+    "LongName": "Dynamic Conditional Correlation Entropy: SubcorticalCerebellum-SubcorticalCerebellum",
+    "Description": "Within-network DCC entropy between SubcorticalCerebellum regions"
+  },
+  "DCC_Thalamus_Thalamus": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Thalamus-Thalamus",
+    "Description": "Within-network DCC entropy between Thalamus regions"
+  },
+  "DCC_Visual1_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Visual1-Visual1",
+    "Description": "Within-network DCC entropy between Visual1 regions"
+  },
+  "DCC_Visual2_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Visual2-Visual2",
+    "Description": "Within-network DCC entropy between Visual2 regions"
+  },
+  "DCC_VisualAssociation_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: VisualAssociation-VisualAssociation",
+    "Description": "Within-network DCC entropy between VisualAssociation regions"
+  },
+  "DCC_DefaultMode_Frontoparietal": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-Frontoparietal",
+    "Description": "Between-network DCC entropy between DefaultMode and Frontoparietal regions"
+  },
+  "DCC_DefaultMode_MedialFrontal": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-MedialFrontal",
+    "Description": "Between-network DCC entropy between DefaultMode and MedialFrontal regions"
+  },
+  "DCC_DefaultMode_Motor": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-Motor",
+    "Description": "Between-network DCC entropy between DefaultMode and Motor regions"
+  },
+  "DCC_DefaultMode_SubcorticalCerebellum": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-SubcorticalCerebellum",
+    "Description": "Between-network DCC entropy between DefaultMode and SubcorticalCerebellum regions"
+  },
+  "DCC_DefaultMode_Thalamus": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-Thalamus",
+    "Description": "Between-network DCC entropy between DefaultMode and Thalamus regions"
+  },
+  "DCC_DefaultMode_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-Visual1",
+    "Description": "Between-network DCC entropy between DefaultMode and Visual1 regions"
+  },
+  "DCC_DefaultMode_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-Visual2",
+    "Description": "Between-network DCC entropy between DefaultMode and Visual2 regions"
+  },
+  "DCC_DefaultMode_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: DefaultMode-VisualAssociation",
+    "Description": "Between-network DCC entropy between DefaultMode and VisualAssociation regions"
+  },
+  "DCC_Frontoparietal_MedialFrontal": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-MedialFrontal",
+    "Description": "Between-network DCC entropy between Frontoparietal and MedialFrontal regions"
+  },
+  "DCC_Frontoparietal_Motor": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-Motor",
+    "Description": "Between-network DCC entropy between Frontoparietal and Motor regions"
+  },
+  "DCC_Frontoparietal_SubcorticalCerebellum": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-SubcorticalCerebellum",
+    "Description": "Between-network DCC entropy between Frontoparietal and SubcorticalCerebellum regions"
+  },
+  "DCC_Frontoparietal_Thalamus": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-Thalamus",
+    "Description": "Between-network DCC entropy between Frontoparietal and Thalamus regions"
+  },
+  "DCC_Frontoparietal_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-Visual1",
+    "Description": "Between-network DCC entropy between Frontoparietal and Visual1 regions"
+  },
+  "DCC_Frontoparietal_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-Visual2",
+    "Description": "Between-network DCC entropy between Frontoparietal and Visual2 regions"
+  },
+  "DCC_Frontoparietal_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Frontoparietal-VisualAssociation",
+    "Description": "Between-network DCC entropy between Frontoparietal and VisualAssociation regions"
+  },
+  "DCC_MedialFrontal_Motor": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-Motor",
+    "Description": "Between-network DCC entropy between MedialFrontal and Motor regions"
+  },
+  "DCC_MedialFrontal_SubcorticalCerebellum": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-SubcorticalCerebellum",
+    "Description": "Between-network DCC entropy between MedialFrontal and SubcorticalCerebellum regions"
+  },
+  "DCC_MedialFrontal_Thalamus": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-Thalamus",
+    "Description": "Between-network DCC entropy between MedialFrontal and Thalamus regions"
+  },
+  "DCC_MedialFrontal_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-Visual1",
+    "Description": "Between-network DCC entropy between MedialFrontal and Visual1 regions"
+  },
+  "DCC_MedialFrontal_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-Visual2",
+    "Description": "Between-network DCC entropy between MedialFrontal and Visual2 regions"
+  },
+  "DCC_MedialFrontal_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: MedialFrontal-VisualAssociation",
+    "Description": "Between-network DCC entropy between MedialFrontal and VisualAssociation regions"
+  },
+  "DCC_Motor_SubcorticalCerebellum": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Motor-SubcorticalCerebellum",
+    "Description": "Between-network DCC entropy between Motor and SubcorticalCerebellum regions"
+  },
+  "DCC_Motor_Thalamus": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Motor-Thalamus",
+    "Description": "Between-network DCC entropy between Motor and Thalamus regions"
+  },
+  "DCC_Motor_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Motor-Visual1",
+    "Description": "Between-network DCC entropy between Motor and Visual1 regions"
+  },
+  "DCC_Motor_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Motor-Visual2",
+    "Description": "Between-network DCC entropy between Motor and Visual2 regions"
+  },
+  "DCC_Motor_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Motor-VisualAssociation",
+    "Description": "Between-network DCC entropy between Motor and VisualAssociation regions"
+  },
+  "DCC_SubcorticalCerebellum_Thalamus": {
+    "LongName": "Dynamic Conditional Correlation Entropy: SubcorticalCerebellum-Thalamus",
+    "Description": "Between-network DCC entropy between SubcorticalCerebellum and Thalamus regions"
+  },
+  "DCC_SubcorticalCerebellum_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: SubcorticalCerebellum-Visual1",
+    "Description": "Between-network DCC entropy between SubcorticalCerebellum and Visual1 regions"
+  },
+  "DCC_SubcorticalCerebellum_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: SubcorticalCerebellum-Visual2",
+    "Description": "Between-network DCC entropy between SubcorticalCerebellum and Visual2 regions"
+  },
+  "DCC_SubcorticalCerebellum_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: SubcorticalCerebellum-VisualAssociation",
+    "Description": "Between-network DCC entropy between SubcorticalCerebellum and VisualAssociation regions"
+  },
+  "DCC_Thalamus_Visual1": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Thalamus-Visual1",
+    "Description": "Between-network DCC entropy between Thalamus and Visual1 regions"
+  },
+  "DCC_Thalamus_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Thalamus-Visual2",
+    "Description": "Between-network DCC entropy between Thalamus and Visual2 regions"
+  },
+  "DCC_Thalamus_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Thalamus-VisualAssociation",
+    "Description": "Between-network DCC entropy between Thalamus and VisualAssociation regions"
+  },
+  "DCC_Visual1_Visual2": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Visual1-Visual2",
+    "Description": "Between-network DCC entropy between Visual1 and Visual2 regions"
+  },
+  "DCC_Visual1_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Visual1-VisualAssociation",
+    "Description": "Between-network DCC entropy between Visual1 and VisualAssociation regions"
+  },
+  "DCC_Visual2_VisualAssociation": {
+    "LongName": "Dynamic Conditional Correlation Entropy: Visual2-VisualAssociation",
+    "Description": "Between-network DCC entropy between Visual2 and VisualAssociation regions"
+  },
+  "sex": {
+    "LongName": "Sex",
+    "Description": "Sex (Male/Female)"
+  },
+  "age": {
+    "LongName": "Age",
+    "Description": "Age (years)"
+  },
+  "weight": {
+    "LongName": "Weight",
+    "Description": "Weight (kg)"
+  },
+  "height": {
+    "LongName": "Height",
+    "Description": "Height (cm)"
+  },
+  "bmi": {
+    "LongName": "BMI",
+    "Description": "BMI (kg/m^2)"
+  },
+  "time": {
+    "LongName": "LSD Time",
+    "Description": "LSD position in cross-over"
+  },
+  "drugsbefore_binary": {
+    "LongName": "Drugs Before, Binary",
+    "Description": "Binary of whether active drug administered before LSD"
+  },
+  "drugsbefore": {
+    "LongName": "Drugs Before, Accumulating",
+    "Description": "Total number of active drugs before LSD"
+  },
+  "experience_unity": {
+    "LongName": "Experience of Unity",
+    "Description": "11S: Experience of Unity (0-100)"
+  },
+  "spiritual_exp": {
+    "LongName": "Spiritual Experience",
+    "Description": "11S: Spiritual Experience (0-100)"
+  },
+  "blissful_state": {
+    "LongName": "Blissful State",
+    "Description": "11S: Blissful State (0-100)"
+  },
+  "insightfulness": {
+    "LongName": "Insightfulness",
+    "Description": "11S: Insightfulness (0-100)"
+  },
+  "disembodiment": {
+    "LongName": "Disembodiment",
+    "Description": "11S: Disembodiment (0-100)"
+  },
+  "impaired_control": {
+    "LongName": "Impaired Control and Cognition",
+    "Description": "11S: Impaired Control and Cognition (0-100)"
+  },
+  "anxiety": {
+    "LongName": "Anxiety",
+    "Description": "11S: Anxiety (0-100)"
+  },
+  "compl_imagery": {
+    "LongName": "Complex Imagery",
+    "Description": "11S: Complex Imagery (0-100)"
+  },
+  "element_imagery": {
+    "LongName": "Elementary Imagery",
+    "Description": "11S: Elementary Imagery (0-100)"
+  },
+  "av_synesthesiae": {
+    "LongName": "Audio-Visual Synthesthesia",
+    "Description": "11S: Audio-Visual Synthesthesia (0-100)"
+  },
+  "chg_meaning_percepts": {
+    "LongName": "Change Meaning of Percepts",
+    "Description": "11S: Change Meaning of Percepts (0-100)"
+  },
+  "OSE": {
+    "LongName": "Oceanic Boundlessness",
+    "Description": "5D: Oceanic Boundlessness (0-100)"
+  },
+  "AIA": {
+    "LongName": "Anxiety Ego Dissolution",
+    "Description": "5D: Anxiety Ego Dissolution (0-100)"
+  },
+  "VUS": {
+    "LongName": "Visual Restructuralization",
+    "Description": "5D: Visual Restructuralization (0-100)"
+  },
+  "AUD": {
+    "LongName": "Auditory Alterations",
+    "Description": "5D: Auditory Alterations (0-100)"
+  },
+  "VIR": {
+    "LongName": "Vigilance Reduction",
+    "Description": "5D: Vigilance Reduction (0-100)"
+  },
+  "x5DASC": {
+    "LongName": "ASC Total Score",
+    "Description": "ASC Total Score (0-100)"
+  },
+  "OAV": {
+    "LongName": "OAV Total Score",
+    "Description": "OAV Total Score (0-100)"
+  }
+}
